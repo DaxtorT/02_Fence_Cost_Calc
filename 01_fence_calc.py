@@ -56,7 +56,7 @@ while keep_going == "":
 
     # Output the perimeter and cost of the fencing
     print("The Perimeter of your Fence is: {} ".format(perimeter))
-    print("The Total Cost of your Fence is: ${} ".format(total_cost))
+    print("The Total Cost of your Fence is: ${:.2f} ".format(total_cost))
     print("")
     
     keep_going = input("Press <enter> to keep going or any key to quit")
